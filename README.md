@@ -18,27 +18,49 @@ The setup also includes Dockerized services for data validation and ETL transfor
 ecs-step-function-dynamodb | Ecommerce Orders
 │
 ├── architecture└── ecs-step-function-dynamodb | Ecommerce Orders
+    
     │   ├── 1.png
+    
     │   ├── 2.png
+    
     │   └── event_driven_stepfunc_ecs.pdf
+    
     ├── data
+    
     │   ├── order_items_20240531.csv
+    
     │   ├── order_items_20240601.csv
+    
     │   ├── orders_20240531.csv
+    
     │   ├── orders_20240601.csv
+    
     │   └── products.csv
+    
     ├── docker-commands.sh
+    
     ├── docker-data-validity
+    
     │   ├── app.py
+    
     │   ├── Dockerfile
+    
     │   └── requirements.txt
+    
     ├── docker-dynamo-etl-wrangler
+    
     │   ├── app.py
+    
     │   ├── Dockerfile
+    
     │   └── requirements.txt
+    
     ├── event-pattern.json
+    
     └── step-functions
+    
         ├── step-function.json
+        
         └── step-functions-iam-execution-policy.json
 
 
