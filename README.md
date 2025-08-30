@@ -62,5 +62,5 @@ ecs-step-function-dynamodb | Ecommerce Orders
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
+   https://github.com/Goku6382798/ecs-step-function-dynamodb-Ecommerce-Orders
    cd "ecs-step-function-dynamodb | Ecommerce Orders"
